@@ -22,11 +22,10 @@ Clone the repository and install the dependencies. Do not forget to install glob
 
 Usage
 ------
-To build the project run. 
+To build the project run the follow command. It will compile the project and put the result under `dist` directory. Also it will watch files changes and compile project again. 
 
     $ npm run bundle
 
-It will compile the project and put the result under `dist` directory. Also it will watch files changes and compile project again.
 To test project run.
 
     $ npm run test
