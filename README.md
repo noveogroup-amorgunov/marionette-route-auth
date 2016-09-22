@@ -1,6 +1,7 @@
 Marionette + ES6 project
 ======================
-This app can be used to bootstrap new projects with Backbone.Marionette + ECMAScript 6 support. 
+> This project provides a prepared development environment based on **Backbone.Marionette**, **Babel** and **Webpack**. You can use it to quickly bootstrap your web application projects.
+ 
 This project uses follow components under the hood:
 
  - Browserify
