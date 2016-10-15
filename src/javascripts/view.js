@@ -1,9 +1,16 @@
-import Marionette from 'backbone.marionette';
-import layoutTemplate from '../templates/layout.handlebars';
+import View from './overrides/view';
 
-const AppLayout = Marionette.View.extend({
-  template: layoutTemplate,
-  templateHelpers() {}
+import HeaderView from './views/layout/header';
+
+const AppLayout = View.extend({
+  regions: {
+    header: '#header',
+    main: '#main'
+  },
+
+  initialize() {
+    this.showChildView('header', new HeaderView());
+  }
 });
 
 export default AppLayout;
